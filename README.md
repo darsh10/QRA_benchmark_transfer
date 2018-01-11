@@ -1,13 +1,3 @@
-
-# format of a data
-# each directory MUST contain the following
-# corpus.tsv.gz a TAB separated file of question_id,title,target corpus.tsv which is gziped
-# train.pos.txt a training file of question_id1,question_id2 space separated of similar questions
-# train.neg.txt a training file of question_id1,question_id2 space separated of unsimilar questions
-# dev.pos.txt, dev.neg.txt, test.pos.txt, test.neg.txt in a similar way
-# For source file : We will need atleast corpus.tsv.gz, train.pos.txt and train.neg.txt
-# For target file : We will need atleast corpus.tsv.gz, dev.pos.txt, dev.neg.txt, test.pos.txt and test.neg.txt
-
 Datasets:
 
 1) AskUbuntu/Android/Apple/SuperUser
@@ -30,3 +20,13 @@ Same format as above
 Newly crawled from the homonymous website https://support.sprint.com/support/device/Sprint/Sprint_LiveProtrade-dvc8240001prd?intent=faq
 
 Same format as above
+
+# format of data
+# each directory MUST contain the following
+# corpus.tsv.gz a TAB separated file of question_id,title,target corpus.tsv which is gziped
+# train.pos.txt a training file of question_id1,question_id2 space separated of similar questions
+# train.neg.txt a training file of question_id1,question_id2 space separated of unsimilar questions
+# dev.pos.txt, dev.neg.txt, test.pos.txt, test.neg.txt in a similar way
+# For source file : We will need atleast corpus.tsv.gz, train.pos.txt and train.neg.txt
+# For target file : We will need atleast corpus.tsv.gz, dev.pos.txt, dev.neg.txt, test.pos.txt and test.neg.txt
+
